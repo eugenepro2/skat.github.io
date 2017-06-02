@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <title>Skat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.10.0/tingle.min.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+</html>
+<body>
+  <div class="slideout-menu" id="menu">
+    <div class="row">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li class="sub-menu-parent"><a>Услуги</a>
+          <ul class="sub-menu">
+            <li><a href="services.html">Услуга 1</a></li>
+            <li><a href="services.html">Услуга 2</a></li>
+          </ul>
+        </li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="alternative.html">Альтернатива-скат</a></li>
+      </ul>
+      <ul>
+        <li><a onclick="modalContent.open();">Заказать звонок</a></li>
+        <li><a href="tel:79999999999">+7 (999) 999-99-99</a></li>
+        <li><a href="tel:79999999999">8(812) 999-99-99</a></li>
+      </ul>
+    </div>
+  </div>
+  <header class="header header-primary wow fadeIn">
+    <div class="container">
+      <div class="row middle-xs">
+        <div class="col-md-1 col-xs-1"><a class="header__logo" href="/"><img src="img/logo-white.png" alt="Skat Logo"></a></div>
+        <div class="col-md-11 col-xs-11">
+          <div class="row middle-xs end-xs start-sm">
+            <div class="col-md-7 col-sm-7">
+              <nav>
+                <ul class="header__menu">
+                  <li><a href="index.html">Главная</a></li>
+                  <li class="sub-menu-parent"><a>Услуги<i class="icon-arrow-menu"></i></a>
+                    <ul class="sub-menu">
+                      <li><a href="services.html">Услуга 1</a></li>
+                      <li><a href="services.html">Услуга 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="reviews.html">Отзывы</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                  <li><a href="alternative.html">Альтернатива-скат</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-md-5 col-sm-6">
+              <ul class="header__contact">
+                <li><a onclick="modalContent.open();">Заказать звонок</a></li>
+                <li><a href="tel:79999999999">+7 (999) 999-99-99</a></li>
+                <li><a href="tel:79999999999">8(812) 999-99-99</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 menu-open end-xs"><img src="img/menu.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="panel">
+    <div class="breadcrumb__block breadcrumb__block__white wow fadeIn">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-xs-12">
+            <div class="breadcrumb">
+              <h2>Новости</h2><a href="#">Главная</a><span>/  </span><a href="#">Новости</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="news-article wow fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <article class="news-article__block">
+              <h1>Название статьи</h1><span>Имя фамилия</span><span class="separator">|</span><span>Категория</span>
+              <div class="news-article__block__image"><img src="img/slider.png" alt="">
+                <div class="news-article__block__image__date">21 Марта 2017</div>
+              </div>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the...</p>
+              <blockquote> 
+                <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ul lamcorper nulla non metus auctor fringilla euismod semper.</p>
+              </blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Praesent sodales ante quam, eu dictum velit ornare quis. Aliquam elementum interdum elit, sollicitudin egestas libero bibendum a. Pellentesque blandit vel nisi et iaculis. Donec nec tristique arcu. Proin ac congue ante. Nunc in convallis metus. </p>
+              <p>Donec luctus nisl augue, quis finibus lectus auctor nec. Cras sed rutrum lacus, eu eleifend sem. Proin faucibus consectetur metus in maximus. Donec sodales eros sed metus consectetur, ac dapibus felis gravida. Morbi vestibulum lorem non metus pulvinar tempus. Ut non ligula ut odio ultrices tincidunt. Morbi sed hendrerit nulla. Aliquam elementum interdum elit, sollicitudin egestas libero bibendum a. Pellentesque blandit vel nisi et iaculis. Donec nec tristique arcu. Proin ac congue ante. Nunc in convallis metus. Donec luctus nisl augue, quis finibus lectus auctor nec. Cras sed rutrum lacus, eu eleifend sem. Proin faucibus consectetur metus in maximus. Donec sodales eros sed metus consectetur, ac dapibus felis gravida. Morbi vestibulum lorem non metus pulvinar tempus. Ut non ligula ut odio ultrices tincidunt. Morbi sed hendrerit nulla. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <ul>
+                <li>Proin elementum ante quis mauris</li>
+                <li>Integer dictum magna vitae ullamcorper sodales</li>
+                <li>Integer non placerat diam, id ornare est. Curabitur sit amet lectus vitae urna.</li>
+                <li>Vestibulum ante ipsum primis in faucibus</li>
+              </ul>
+            </article>
+            <div class="news-article__soc">
+              <div class="col-xs-12 end-xs"><a href="#"><i class="icon-facebook"></i></a><a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-youtube"></i></a><a href="#"><i class="icon-vk"></i></a><a href="#"><i class="icon-linkedin"></i></a></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <aside class="news__aside">
+              <form>
+                <input type="text" placeholder="Поиск">
+              </form>
+              <h2>Категории</h2>
+              <ul>
+                <li><a href="#">Новости<span>(10)</span></a></li>
+                <li><a href="#">Новые проекты<span>(10)</span></a></li>
+                <li><a href="#">Мероприятия<span>(10)</span></a></li>
+                <li><a href="#">Что-то еще<span>(10)</span></a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section><a id="back-to-top" href="#" title="Back to top">↑</a>
+    <footer class="footer">
+      <div class="footer__block">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer__logo wow fadeInUp" data-wow-delay="0.3s"><img src="img/logo-white.png" alt="">
+                <p>Nullam vel enim risus. Integer rhoncus hendrerit sem egestas porttitor.</p>
+              </div>
+              <div class="footer__contact wow fadeInUp" data-wow-delay="0.4s">
+                <div class="row">
+                  <div class="col-xs-1"><i class="icon-map-marker"></i></div>
+                  <div class="col-xs-11"><span>192029 Большой Смоленский проспект, 10 Санкт-Петербург, Россия </span></div>
+                  <div class="col-xs-1"><i class="icon-call"></i></div>
+                  <div class="col-xs-11"><a href="tel:79999999999">8 (812) 999-99-99</a></div>
+                  <div class="col-xs-1"><i class="icon-mail-2"></i></div>
+                  <div class="col-xs-11"><a href="mailto:hello@scat-spb.ru">hello@scat-spb.ru</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-md-offset-2 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+              <h3>Компания</h3>
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Альтернатива-скат</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12 wow fadeInUp" data-wow-delay="0.5s">
+              <h3>Наши услуги</h3>
+              <ul>
+                <li><a href="#">Коммерческие объекты</a></li>
+                <li><a href="#">Частные объекты</a></li>
+                <li><a href="#">Физические посты охраны</a></li>
+                <li><a href="#">Личная охрана</a></li>
+                <li><a href="#">Охранное оборудование</a></li>
+                <li><a href="#">Охрана мероприятий</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__toolbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-sm-10 col-xs-12 wow fadeInUp" data-wow-delay="0.3s"><span> © 2017 - Охранная организация ООО “Скат Санкт-Петербург”</span></div>
+            <div class="col-md-2 col-sm-2 col-xs-12">
+              <div class="flex"><a class="wow fadeInUp" href="#" data-wow-delay="0.3s"><i class="icon-facebook"></i></a><a class="wow fadeInUp" href="#" data-wow-delay="0.35s"><i class="icon-twitter"></i></a><a class="wow fadeInUp" href="#" data-wow-delay="0.4s"><i class="icon-vk"></i></a><a class="wow fadeInUp" href="#" data-wow-delay="0.45s"><i class="icon-youtube"></i></a><a class="wow fadeInUp" href="#" data-wow-delay="0.5s"><i class="icon-linkedin"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-callback" style="display: none;">
+      <div class="modal-callback">
+        <div class="close" onclick="modalContent.close();">X</div>
+        <h2>Оставьте свой номер телефона и<br> мы перезвоним Вам в ближайшее время</h2>
+        <form>
+          <input type="text" placeholder="ВАШЕ ИМЯ">
+          <input type="tel" placeholder="НОМЕР ТЕЛЕФОНА">
+          <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.print/1.5.1/jQuery.print.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.10.0/tingle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/slideout.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    var modalContent = new tingle.modal();
+    modalContent.setContent(document.querySelector('.modal-callback').innerHTML);
+  </script>
+</body>

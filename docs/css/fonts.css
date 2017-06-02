@@ -1,0 +1,327 @@
+@font-face
+{
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-style: italic; 
+
+    src: url('../fonts/subset-SegoeUI-Italic.woff2') format('woff2'), url('../fonts/subset-SegoeUI-Italic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-style: normal; 
+
+    src: url('../fonts/subset-SegoeUI-SemiBold.woff2') format('woff2'), url('../fonts/subset-SegoeUI-SemiBold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-style: normal; 
+
+    src: url('../fonts/subset-SegoeUI-Bold.woff2') format('woff2'), url('../fonts/subset-SegoeUI-Bold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../fonts/subset-SegoeUI.woff2') format('woff2'), url('../fonts/subset-SegoeUI.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-style: normal; 
+
+    src: url('../fonts/subset-SegoeUI-Light.woff2') format('woff2'), url('../fonts/subset-SegoeUI-Light.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Regular.woff2') format('woff2'), url('../fonts/subset-Exo2-Regular.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Light.woff2') format('woff2'), url('../fonts/subset-Exo2-Light.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: bold;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-BoldItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-BoldItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Extra';
+    font-weight: 200;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-ExtraLightItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-MediumItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-MediumItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: bold;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Bold.woff2') format('woff2'), url('../fonts/subset-Exo2-Bold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Extra';
+    font-weight: 800;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-ExtraBold.woff2') format('woff2'), url('../fonts/subset-Exo2-ExtraBold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Semi';
+    font-weight: 600;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-SemiBoldItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-SemiBoldItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 100;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Thin.woff2') format('woff2'), url('../fonts/subset-Exo2-Thin.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Medium.woff2') format('woff2'), url('../fonts/subset-Exo2-Medium.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Semi';
+    font-weight: 600;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-SemiBold.woff2') format('woff2'), url('../fonts/subset-Exo2-SemiBold.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Extra';
+    font-weight: 200;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-ExtraLight.woff2') format('woff2'), url('../fonts/subset-Exo2-ExtraLight.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: normal;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-Italic.woff2') format('woff2'), url('../fonts/subset-Exo2-Italic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 100;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-ThinItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-ThinItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-BlackItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-BlackItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Exo2-Black.woff2') format('woff2'), url('../fonts/subset-Exo2-Black.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2 Extra';
+    font-weight: 800;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-ExtraBoldItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Exo2-LightItalic.woff2') format('woff2'), url('../fonts/subset-Exo2-LightItalic.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../fonts/icomoon.eot?40juwb');
+    src: url('../fonts/icomoon.eot?40juwb#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?40juwb') format('truetype'), url('../fonts/icomoon.woff?40juwb') format('woff'), url('../fonts/icomoon.svg?40juwb#icomoon') format('svg');
+}
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    font-family: 'icomoon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-menu:before
+{
+    content: '\e901';
+}
+
+.icon-arrow-down:before
+{
+    content: '\e900';
+}
+
+.icon-mail:before
+{
+    content: '\e904';
+}
+
+.icon-mobile:before
+{
+    content: '\e905';
+}
+
+.icon-placeholder:before
+{
+    content: '\e906';
+}
+
+.icon-printer:before
+{
+    content: '\e907';
+}
+
+.icon-up:before
+{
+    content: '\e908';
+}
+
+.icon-linkedin:before
+{
+    content: '\e909';
+}
+
+.icon-youtube:before
+{
+    content: '\e90a';
+}
+
+.icon-twitter:before
+{
+    content: '\e90b';
+}
+
+.icon-vk:before
+{
+    content: '\e90c';
+}
+
+.icon-facebook:before
+{
+    content: '\e90d';
+}
+
+.icon-mail-2:before
+{
+    content: '\e90e';
+}
+
+.icon-call:before
+{
+    content: '\e90f';
+}
+
+.icon-map-marker:before
+{
+    content: '\e910';
+}
+
+.icon-zoom:before
+{
+    content: '\e911';
+}
+
+.icon-arrow-left:before
+{
+    content: '\e912';
+}
+
+.icon-arrow-right:before
+{
+    content: '\e913';
+}
+
+.icon-arrow-slider:before
+{
+    content: '\e914';
+}
